@@ -1,0 +1,111 @@
+{
+  "sqltools.connections": [
+    {
+      "previewLimit": 50,
+      "server": "my-release-postgresql.default.svc.cluster.local",
+      "port": 5432,
+      "driver": "PostgreSQL",
+      "name": "test-do",
+      "database": "hedepy",
+      "username": "postgres",
+      "password": "qBtsW4hOXb84"
+    },
+    {
+      "previewLimit": 50,
+      "server": "my-release-postgresql.default.svc.cluster.local",
+      "port": 5432,
+      "driver": "PostgreSQL",
+      "name": "prod-ua",
+      "database": "hedepy-ua",
+      "username": "postgres",
+      "password": "iUi_jqyok_JGTU6KreQ83ng3"
+    },
+    {
+      "previewLimit": 50,
+      "server": "my-release-postgresql.default.svc.cluster.local",
+      "port": 5432,
+      "driver": "PostgreSQL",
+      "name": "prod-gr",
+      "database": "hedepy-gr",
+      "username": "postgres",
+      "password": "6CPui3qpT**.XG-Yc..ZgUER"
+    },
+    {
+      "previewLimit": 50,
+      "server": "my-release-postgresql.default.svc.cluster.local",
+      "port": 5432,
+      "driver": "PostgreSQL",
+      "name": "prod-hu",
+      "database": "hedepy-hu",
+      "username": "postgres",
+      "password": "nwg4AbAL6fGMHUAd.pVxa9ek"
+    },
+    {
+      "previewLimit": 50,
+      "server": "my-release-postgresql.default.svc.cluster.local",
+      "port": 5432,
+      "driver": "PostgreSQL",
+      "name": "prod-en",
+      "username": "hedepyEn",
+      "database": "hedepy-en-postgres",
+      "password": "l9mFyrn9m3HF0Aj801w9ZUvcM9mYlvDVYxJpbGL8xQJ"
+    },
+    {
+      "previewLimit": 50,
+      "server": "my-release-postgresql.default.svc.cluster.local",
+      "port": 5432,
+      "driver": "PostgreSQL",
+      "name": "prod-sk",
+      "database": "hedepy-sk-postgres",
+      "username": "hedepySk",
+      "password": "2W8MTBK59aJRWxQggTbyu7seej4agrMY6DoXmxwuba9A1"
+    },
+    {
+      "previewLimit": 50,
+      "server": "my-release-postgresql.default.svc.cluster.local",
+      "port": 5432,
+      "driver": "PostgreSQL",
+      "name": "prod-ro",
+      "username": "hedepyRo",
+      "database": "hedepy-ro-postgres",
+      "password": "yAeON0Nnb8Di0SlgDHOb7qNgFOzDsjTB2wJF8"
+    },
+    {
+      "previewLimit": 50,
+      "server": "my-release-postgresql.default.svc.cluster.local",
+      "port": 5432,
+      "driver": "PostgreSQL",
+      "name": "prod-it",
+      "database": "hedepy-it-postgres",
+      "username": "hedepyIt",
+      "password": "OyXA521UwhZr1WGmWkLb6OgHJ6QtYWE7jfiRWry"
+    },
+    {
+      "previewLimit": 50,
+      "server": "my-release-postgresql.default.svc.cluster.local",
+      "port": 5432,
+      "driver": "PostgreSQL",
+      "name": "prod-pl",
+      "database": "hedepy-pl-postgres",
+      "username": "hedepyPl",
+      "password": "PouNGsHaNdSCardIgHt3ImstysISoNteRNHART1"
+    },
+    {
+      "previewLimit": 50,
+      "server": "my-release-postgresql.default.svc.cluster.local",
+      "port": 5432,
+      "driver": "PostgreSQL",
+      "name": "prod-cz",
+      "database": "hedepy",
+      "username": "postgres",
+      "password": "7pvRaK9UqS3V"
+    },
+    {
+      "previewLimit": 50,
+      "driver": "SQLite",
+      "name": "skinet",
+      "database": "${workspaceFolder:API}/some-dotnet-app.db"
+    }
+  ],
+  "sqltools.useNodeRuntime": true
+}
